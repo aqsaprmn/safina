@@ -1,0 +1,112 @@
+.wrapper {
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    width: 120px;
+}
+
+.carousel {
+    height: 600px;
+    margin-top: 88px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.caro-img {
+    height: 600px;
+}
+
+.caro-img img {
+    height: 100%;
+}
+
+.caro-img img {
+    filter: brightness(70%);
+}
+
+.navbar {
+    z-index: 10;
+    margin-top: -88px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card {
+    transition: 0.5s;
+    /* border: 1px solid black; */
+}
+
+.card:hover {
+    box-shadow: 5px 10px 16px #888888;
+}
+
+.icon-ma {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+}
+
+.fasilitas {
+    height: 70px;
+    overflow-y: auto;
+}
+
+.bg-grey {
+    background: rgb(230, 230, 230);
+}
+
+.layanan-icon {
+    font-size: 5rem;
+    margin-bottom: 24px;
+}
+
+.text-b-brown {
+    color: #B9933A;
+}
+
+.bg-b-brown {
+    background: #B9933A;
+}
+
+.btn-brown {
+    background: #B9933A;
+    transition: 0.5s;
+}
+
+.btn-brown:hover {
+    background: #a58336;
+}
+
+.bg-b-brown {
+    background: #B9933A;
+}
+
+.text-b-blue {
+    color: #5CC9E2;
+}
+
+.bg-b-blue {
+    background: #5CC9E2;
+}
+
+.btn-blue {
+    background: #5CC9E2;
+    transition: 0.5s;
+}
+
+.btn-blue:hover {
+    background: #4eadc3;
+}
+
+.lh-0 {
+    line-height: 0;
+}
+
+.maskapai {
+    width: 100px;
+}
