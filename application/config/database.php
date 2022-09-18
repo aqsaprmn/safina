@@ -75,9 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password' => '', 
+	'hostname' => '103.242.181.10',
+	'username' => 'billing',
+	'password' => 'W1fipinter',
 	'database' => 'safina',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
