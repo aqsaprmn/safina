@@ -27,7 +27,7 @@
         <div class="best-title pb-5 text-center">
             <h1><span class="text-b-brown">Hotel</span> <span class="text-b-blue">Penawaran Terbaik</span></h1>
         </div>
-        <div class="row px-5 ">
+        <div class="row px-5 mx-0">
             <div class="col-md-3 d-flex justify-content-center">
                 <div class="card" style="width: 24rem;">
                     <a href="<?= base_url() ?>hotel/"><img src="<?= base_url() ?>asset/img/hilton.jpeg" class="card-img-top" alt="..."></a>
