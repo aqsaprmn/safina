@@ -10,7 +10,7 @@
                     <td><?= $vsPersonal['name']; ?></td>
                 </tr>
                 <tr>
-                    <td>Passport Numbe</td>
+                    <td>Passport Number</td>
                     <td>:</td>
                     <td><?= $vsPassport['pass_no']; ?></td>
                 </tr>
