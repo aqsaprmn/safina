@@ -5,7 +5,8 @@ class Homepage extends CI_Controller
 {
     public function index()
     {
-        $data['title'] = 'Homepage';
+        $data['title'] = 'Home';
+        $data['active'] = 'home';
 
         $this->load->view('template/header', $data);
         $this->load->view('packages');

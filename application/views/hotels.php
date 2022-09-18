@@ -58,9 +58,9 @@
         <div class="px-4 mb-3">
             <h3 class="px-4"><span class="text-b-brown">4</span> <span class="text-b-blue">Hotel Ditemukan</span></h3>
         </div>
-        <div class="row">
-            <div class="col-md-6 px-4 d-flex justify-content-center">
-                <div class="card position-relative mb-3" style="max-width: 640px;height:300px">
+        <div class="row px-3">
+            <div class="col-md-6 px-5 d-flex justify-content-center">
+                <div class="card position-relative mb-3" style="width: 100%;height:340px">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
                             <img style="width: 400px;" src="<?= base_url() ?>asset/img/hilton.jpeg" class="img-fluid rounded-start h-100" alt="...">
@@ -133,7 +133,7 @@
                                         Harga Mulai: <b>Rp. 1.567.217</b>
                                     </div>
                                     <div class="col-md-5">
-                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-2">Booking Sekarang!</a>
+                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-3">Booking!</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +141,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 px-4 d-flex justify-content-center">
-                <div class="card position-relative mb-3" style="max-width: 640px;height:300px">
+            <div class="col-md-6 px-5 d-flex justify-content-center">
+                <div class="card position-relative mb-3" style="width: 100%;height:340px">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
                             <img style="width: 400px;" src="<?= base_url() ?>asset/img/swissotel.jpeg" class="img-fluid rounded-start h-100" alt="...">
@@ -215,7 +215,7 @@
                                         Harga Mulai: <b>Rp. 2.444.655</b>
                                     </div>
                                     <div class="col-md-5">
-                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-2">Booking Sekarang!</a>
+                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-3">Booking!</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,9 +224,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 px-4 d-flex justify-content-center">
-                <div class="card position-relative mb-3" style="max-width: 640px;height:300px">
+        <div class="row px-3">
+            <div class="col-md-6 px-5 d-flex justify-content-center">
+                <div class="card position-relative mb-3" style="width: 100%;height:300px">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
                             <img style="width: 400px;" src="<?= base_url() ?>asset/img/alkiswah.jpeg" class="img-fluid rounded-start h-100" alt="...">
@@ -299,7 +299,7 @@
                                         Harga Mulai: <b>Rp. 548.022</b>
                                     </div>
                                     <div class="col-md-5">
-                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-2">Booking Sekarang!</a>
+                                        <a href="<?= base_url() ?>hotel/" class="btn-brown text-decoration-none rounded text-white border-0 p-3">Booking!</a>
                                     </div>
                                 </div>
                             </div>
@@ -307,8 +307,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 px-4 d-flex justify-content-center">
-                <div class="card position-relative mb-3" style="max-width: 640px;height:300px">
+            <div class="col-md-6 px-5 d-flex justify-content-center">
+                <div class="card position-relative mb-3" style="width: 100%;height:300px">
                     <div class="row g-0 h-100">
                         <div class="col-md-4 h-100">
                             <img style="width: 400px;" src="<?= base_url() ?>asset/img/infinity.jpeg" class="img-fluid rounded-start h-100" alt="...">
@@ -381,7 +381,7 @@
                                         Harga Mulai: <b>Rp. 2.877.261</b>
                                     </div>
                                     <div class="col-md-5">
-                                        <a href="<?= base_url() ?>hotel/" class="btn-brown rounded text-decoration-none text-white border-0 p-2">Booking Sekarang!</a>
+                                        <a href="<?= base_url() ?>hotel/" class="btn-brown rounded text-decoration-none text-white border-0 p-3">Booking!</a>
                                     </div>
                                 </div>
                             </div>

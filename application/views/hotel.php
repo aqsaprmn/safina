@@ -193,7 +193,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" id="btnBooking" class="rounded border-0 py-2 px-2 btn-brown text-white">Booking Hotel</button>
+                                <button type="button" id="btnBooking" data-text="Hilton Makkah Conventional Hotel" class="rounded border-0 py-2 px-2 btn-brown text-white">Booking Hotel</button>
                             </div>
                         </form>
                     </div>

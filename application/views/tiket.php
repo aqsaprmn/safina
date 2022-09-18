@@ -1,6 +1,6 @@
 <div class="mt-88 px-3 py-4">
     <div class="px-2 mb-3">
-        <h3>Pemesanan Tiket Pesawat</h3>
+        <h3><span class="text-b-brown">Pemesanan</span> <span class="text-b-blue">Tiket Pesawat</span></h3>
     </div>
     <div class="px-2">
         <form class="" action="" method="post">
@@ -212,7 +212,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" id="btnBooking" class="rounded border-0 py-2 px-2 btn-brown text-white">Booking Tiket</button>
+                                <button type="button" id="btnBooking" data-text="Tiket Pesawat - Air Asia" class="rounded border-0 py-2 px-2 btn-brown text-white">Booking Tiket</button>
                             </div>
                         </form>
                     </div>

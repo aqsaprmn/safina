@@ -7,7 +7,7 @@
 }
 
 .carousel {
-    height: 600px;
+    height: 80vh;
     margin-top: 88px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .caro-img {
-    height: 600px;
+    height: 100%;
 }
 
 .caro-img img {
@@ -109,4 +109,8 @@
 
 .maskapai {
     width: 100px;
+}
+
+.active-nav {
+    background: #3b8393;
 }

@@ -33,19 +33,46 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto ps-5">
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="<?= base_url() ?>">Home</a>
+                            <a class="nav-link <?php
+                                                if ($active == 'home') {
+                                                    echo 'text-b-brown';
+                                                }
+                                                ?>" href="<?= base_url() ?>">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="<?= base_url() ?>tiket/">Penerbangan</a>
+                            <a class="nav-link <?php
+                                                if ($active == 'tiket') {
+                                                    echo 'text-b-brown';
+                                                }
+                                                ?>" href="<?= base_url() ?>tiket/">Penerbangan</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="<?= base_url() ?>hotel/hotels">Hotel</a>
+                            <a class="nav-link <?php
+                                                if ($active == 'hotel') {
+                                                    echo 'text-b-brown';
+                                                }
+                                                ?>" href="<?= base_url() ?>hotel/hotels">Hotel</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="<?= base_url() ?>visa/">Visa</a>
+                            <a class="nav-link <?php
+                                                if ($active == 'visa') {
+                                                    echo 'text-b-brown';
+                                                }
+                                                ?>" href="<?= base_url() ?>visa/">Visa</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link btn-blue rounded text-white" href="<?= base_url() ?>paketumroh/">Paket Umrah</a>
+                            <a class="nav-link btn-blue rounded text-white px-3 <?php
+                                                                                if ($active == 'umroh') {
+                                                                                    echo 'active-nav';
+                                                                                }
+                                                                                ?>" href="<?= base_url() ?>paketumroh/">Paket Umrah</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link btn-blue rounded text-white px-3 <?php
+                                                                                if ($active == 'haji') {
+                                                                                    echo 'active-nav';
+                                                                                }
+                                                                                ?>" href="<?= base_url() ?>pakethaji/">Paket Haji</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

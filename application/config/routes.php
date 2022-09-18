@@ -52,6 +52,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'homepage';
 $route['hotel'] = 'hotel';
 $route['paketumroh'] = 'paketumroh';
+$route['pakethaji'] = 'pakethaji';
 $route['tiket'] = 'tiket';
+$route['visa'] = 'visa';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

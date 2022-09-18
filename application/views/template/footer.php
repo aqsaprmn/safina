@@ -25,11 +25,11 @@
                 <table>
                     <tr>
                         <td class="px-2 text-center"><i class="fa-brands fa-whatsapp fs-4"></i></td>
-                        <td><b>+62812-1212-1212</b></td>
+                        <td><b>+62 812-8000-916</b></td>
                     </tr>
                     <tr>
                         <td class="px-2 text-center"><i class="fa-solid fa-envelope fs-4"></i></td>
-                        <td><b>safina@gmail.com</b></td>
+                        <td><b>info1safina@gmail.com</b></td>
                     </tr>
                     <tr>
                         <td class="px-2 text-center"><i class="fa-solid fa-location-dot fs-4"></i></td>

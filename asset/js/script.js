@@ -5,9 +5,11 @@ if (buttonBook) {
 		e.stopImmediatePropagation();
 		e.stopPropagation();
 
+		const text = buttonBook.getAttribute("data-text");
+
 		Swal.fire({
 			title: "Booking Konfirmasi",
-			text: "Anda Akan Melakukan Booking Kamar Di Hilton Makkah Conventional Hotel",
+			text: "Anda Akan Melakukan Booking " + text,
 			icon: "warning",
 			showCancelButton: true,
 			confirmButtonColor: "#3085d6",
@@ -19,7 +21,7 @@ if (buttonBook) {
 				Swal.fire("Sukses!", "Anda Berhasil Booking", "success").then(
 					(result) => {
 						if (result.isConfirmed) {
-							window.location = "http://localhost/safina/hotel/bukti/";
+							window.location = "http://localhost/safina/";
 						}
 					}
 				);
@@ -30,11 +32,13 @@ if (buttonBook) {
 
 const maskapai = document.getElementById("maskapai");
 
-maskapai.addEventListener("change", function () {
-	const val = this.value;
+if (maskapai) {
+	maskapai.addEventListener("change", function () {
+		const val = this.value;
 
-	const bandara = document.getElementsByClassName("");
+		const bandara = document.getElementsByClassName("");
 
-	if (val == 1) {
-	}
-});
+		if (val == 1) {
+		}
+	});
+}
