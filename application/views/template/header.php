@@ -114,17 +114,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="modal-body">
                         <div class="mb-3">
-                            <label for="email-login" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email-login" placeholder="">
+                            <label for="idlog" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="idlog" name="idlog" placeholder="">
                         </div>
                         <div class="mb-3">
-                            <label for="password-login" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password-login">
+                            <label for="passwordlog" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordlog" name="passwordlog">
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-info text-white">Login</button>
+                        <button type="submit" class="btn btn-info text-white">Login</button>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Modal Register -->
         <div class="modal fade" id="daftar" tabindex="-1" aria-labelledby="daftarLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="daftarLabel">Daftar Safina</h5>
@@ -140,27 +140,78 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="nama" class="form-label">Nama Panjang</label>
-                            <input type="text" class="form-control" id="nama" placeholder="">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email-daftar" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email-daftar" placeholder="">
-                        </div>
-                        <div class="mb-3">
-                            <label for="password-daftar" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password-daftar">
-                        </div>
-                        <div class="mb-3">
-                            <label for="password2" class="form-label">Konfirmasi Password</label>
-                            <input type="password" class="form-control" id="password2">
-                        </div>
+                        <form action="<?= base_url() ?>user/registration/" method="post">
+                            <div class="modal-body overflow-auto" style="height: 65vh;">
+                                <div><b>Data Login</b></div>
+                                <hr>
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Username</label>
+                                    <input type="text" class="form-control" name="username" id="username" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" name="password1" id="password1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password2" class="form-label">Konfirmasi Password</label>
+                                    <input type="password" class="form-control" name="password2" id="password2">
+                                </div>
+                                <div><b>Data Pribadi</b></div>
+                                <hr>
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label">Nama Panjang</label>
+                                    <input type="text" class="form-control" name="nama" id="nama" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nik" class="form-label">Nomor Induk Kependudukan</label>
+                                    <input type="text" class="form-control" name="nik" id="nik" placeholder="" max="20">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="mb-3">Tempat/ Tgl Lahir</label>
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="pob" name="pob" autocomplete="off" value="">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="date" name="dob" class="form-control" id="dob" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nama" class="mb-3">Jenis Kelamin</label>
+                                    <div class="">
+                                        <select name="sex" class="form-select" aria-label="Default select example">
+                                            <option selected disabled>Pilih Jenis Kelamin</option>
+                                            <option value="L">Laki - laki</option>
+                                            <option value="P">Perempuan</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="address" class="form-label">Alamat</label>
+                                    <input type="text" class="form-control" id="address" name="address" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telp" class="form-label">No. Telepon</label>
+                                    <input type="text" class="form-control" id="telp" name="telp" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="national" class="form-label">Kewarganegaraan</label>
+                                    <input type="text" class="form-control" id="national" name="national" placeholder="">
+                                </div>
+                            </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-info text-white">Daftar</button>
+                        <button type="submit" class="btn btn-info text-white">Daftar</button>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>

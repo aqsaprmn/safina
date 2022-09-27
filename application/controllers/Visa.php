@@ -7,6 +7,7 @@ class Visa extends CI_Controller
     {
         parent::__construct();
         $this->load->model('M_visa');
+        $this->load->model('M_all');
     }
 
     public function index()
@@ -34,7 +35,21 @@ class Visa extends CI_Controller
         $hp = htmlspecialchars(trim($this->input->post('hp', true)));
         $grup = $this->input->post('grup', true);
 
+        $prefix = $this->M_all->getDataW('no_prefix', ['prefix_cd' => 'VSA']);
+        $prefixNo = str_split($prefix['numb']);
+
+        $prefixNo = array_reverse($prefixNo);
+
+        // for ($i = 0; $i < count($prefixNo); $i++) {
+        //     if ($prefixNo[$i] > 0) {
+        //         $updateNo = (int)$prefixNo[$i] + 1;
+        //     } else {
+
+        //     }
+        // }
+
         $dataPersonal = [
+            "reg_id" => 'VS' . '-' . date('dmy'),
             "name" => $name,
             "sex" => $sex,
             "pob" => $pob,
@@ -44,6 +59,9 @@ class Visa extends CI_Controller
             "hp" => $hp,
             "grup" => $grup
         ];
+
+        // var_dump($dataPersonal, $prefix, $prefixNo);
+        // die;
 
         // Data Passpor
         $nopass = htmlspecialchars(trim($this->input->post('nopass', true)));

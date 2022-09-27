@@ -1,116 +1,124 @@
 .wrapper {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .nav-logo {
-    width: 120px;
+	width: 120px;
 }
 
 .carousel {
-    height: 80vh;
-    margin-top: 88px;
+	height: 80vh;
+	margin-top: 88px;
 }
 
 .mt-88 {
-    margin-top: 88px;
+	margin-top: 88px;
 }
 
 .caro-img {
-    height: 100%;
+	height: 100%;
 }
 
 .caro-img img {
-    height: 100%;
+	height: 100%;
 }
 
 .caro-img img {
-    filter: brightness(70%);
+	filter: brightness(70%);
 }
 
 .navbar {
-    z-index: 10;
-    margin-top: -88px;
+	z-index: 10;
+	margin-top: -88px;
 }
 
 .card-img-top {
-    height: 300px;
+	height: 300px;
 }
 
 .card {
-    transition: 0.5s;
-    /* border: 1px solid black; */
+	transition: 0.5s;
+	/* border: 1px solid black; */
 }
 
 .card:hover {
-    box-shadow: 5px 10px 16px #888888;
+	box-shadow: 5px 10px 16px #888888;
 }
 
 .icon-ma {
-    display: inline-block;
-    position: relative;
-    width: 20px;
+	display: inline-block;
+	position: relative;
+	width: 20px;
 }
 
 .fasilitas {
-    height: 70px;
-    overflow-y: auto;
+	height: 70px;
+	overflow-y: auto;
 }
 
 .bg-grey {
-    background: rgb(230, 230, 230);
+	background: rgb(230, 230, 230);
 }
 
 .layanan-icon {
-    font-size: 5rem;
-    margin-bottom: 24px;
+	font-size: 5rem;
+	margin-bottom: 24px;
 }
 
 .text-b-brown {
-    color: #B9933A;
+	color: #b9933a;
 }
 
 .bg-b-brown {
-    background: #B9933A;
+	background: #b9933a;
 }
 
 .btn-brown {
-    background: #B9933A;
-    transition: 0.5s;
+	background: #b9933a;
+	transition: 0.5s;
 }
 
 .btn-brown:hover {
-    background: #a58336;
+	background: #a58336;
 }
 
 .bg-b-brown {
-    background: #B9933A;
+	background: #b9933a;
 }
 
 .text-b-blue {
-    color: #5CC9E2;
+	color: #5cc9e2;
 }
 
 .bg-b-blue {
-    background: #5CC9E2;
+	background: #5cc9e2;
 }
 
 .btn-blue {
-    background: #5CC9E2;
-    transition: 0.5s;
+	background: #5cc9e2;
+	transition: 0.5s;
 }
 
 .btn-blue:hover {
-    background: #4eadc3;
+	background: #4eadc3;
 }
 
 .lh-0 {
-    line-height: 0;
+	line-height: 0;
 }
 
 .maskapai {
-    width: 100px;
+	width: 100px;
 }
 
 .active-nav {
-    background: #3b8393;
+	background: #3b8393;
+}
+
+.log-admin {
+	background: /* top, transparent black, faked with gradient */ linear-gradient(
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		/* bottom, image */ url("../img/bgmekah.jpg");
 }

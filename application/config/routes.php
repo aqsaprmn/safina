@@ -55,5 +55,6 @@ $route['paketumroh'] = 'paketumroh';
 $route['pakethaji'] = 'pakethaji';
 $route['tiket'] = 'tiket';
 $route['visa'] = 'visa';
+$route['admin'] = 'admin';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
